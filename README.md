@@ -84,5 +84,39 @@ for _ in range(10):
     last_seq = np.append(last_seq[:, 1:, :], [prediction], axis=1)
 ```
 ## Visualizations
+![image](images/OHLC_value.png)
+
+![image](images/daily_trading_volume.png)
+
+![image](images/closing_prices_overtime.png)
+
+![image](images/daily_price_change.png)
+
+![image](images/candlestick_chart.png)
+
+![image](images/price_difference.png)
+
+![image](images/stock_volatility.png)
+
+![image](images/daily_return.png)
+
+![image](images/actual_vs_predicted.png)
+
+![image](images/predicted_close.png)
+
+![image](images/predicted_volume.png)
+
+
+## Conclusion
+The project successfully demonstrates the application of LSTM networks in stock price forecasting. Future improvements could include incorporating additional features, tuning hyperparameters, and exploring different model architectures.
+
+## Tools Used
+1. **Python**: Programming language used for the project.
+2. **Pandas**: Library for data manipulation and analysis.
+3. **NumPy**: Library for numerical computations.
+4. **Scikit-learn**: Library for data preprocessing and machine learning utilities.
+5. **TensorFlow/Keras**: Libraries for building and training the LSTM model.
+6. **Plotly**: Library for creating interactive visualizations.
+7. **Google Colab**: Environment for writing and running code interactively.    
 
 
